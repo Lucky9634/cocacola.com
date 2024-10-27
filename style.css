@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Fira Sans", sans-serif;
+    background: linear-gradient(30deg, rgb(248, 176, 43), rgb(255, 85, 0));
+}
+
+#page1 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 8vh 0;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.logo{
+    color: white;
+    font-weight: 500;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    align-items: center;
+    padding: 0 8vw;
+    border: 1px solid green;
+    font-size: 3vh;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+nav li {
+    display: flex;
+    list-style: none;
+    gap: 5vw;
+}
+nav li a:hover{
+    /* background-color: #6ebe18; */
+    transition: 0.5s ease-in;
+    color: black;
+}
+#hero1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#fanta {
+    margin-top: 2rem;
+    width: 36%;
+    z-index: 5;
+    position: absolute;
+    top: 0%;
+
+}
+
+#leaf {
+    position: absolute;
+    width: 10%;
+    top: 0%;
+    left: 28%;
+    transform: rotate(210deg);
+    z-index: 4;
+}
+
+#orange-cut {
+    position: absolute;
+    width: 20%;
+    top: -4%;
+    left: 33%;
+    transform: rotate(30deg);
+    z-index: 4;
+}
+
+#orange-leaf {
+    position: absolute;
+    width: 23%;
+    top: 30%;
+    z-index: 5;
+    left: 48%;
+    margin-top: 20rem;
+}
+
+#fanta-head {
+    position: absolute;
+    width: 23%;
+    left: 24.9%;
+    z-index: 5;
+    font-size: 18rem;
+    z-index: 3;
+    color: white;
+    top: 10%;
+    margin-top: 9rem;
+}
+
+#page2 {
+    width: 100%;
+    height: 100vh;
+    background-color: chocolate;
+}
+
+#page2-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    padding: 0 4vh;
+    position: relative;
+    align-items: flex-end;
+}
+
+.content {
+    gap: 1rem;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 4vh;
+    color: white;
+}
+
+.content p {
+    width: 80%;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.img svg {
+    width: 55%;
+    margin-left: 6rem;
+}
+
+#page3 {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(30deg, rgb(138, 91, 5), rgb(161, 81, 47));
+    position: relative;
+    overflow: hidden;
+}
+
+#page3-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    padding: 7rem 0;
+}
+
+.box {
+    width: 20%;
+    height: 65vh;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+
+.coldring {
+    position: absolute;
+    width: 25rem;
+    height: 55vh;
+    left: -16%;
+    top: -5%;
+    z-index: 4;
+}
+
+.box h2 {
+    position: absolute;
+    left: 30%;
+    bottom: 8%;
+    margin: 1rem 0;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+.box a {
+    position: absolute;
+    left: 20%;
+    bottom: 3%;
+    background-color: white;
+    padding: 8px 2.5rem;
+    border-radius: 2rem;
+    color: black;
+    width: 55%;
+    text-align: center;
+
+}
+
+.page3-orange-cut {
+    position: absolute;
+    top: -28%;
+    left: -9%;
+    width: 115%;
+    z-index: 3;
+}
+
+#leaf-One {
+    position: absolute;
+    left: -5%;
+    width: 20%;
+    bottom: -20%;
+    transform: rotate(45deg);
+}
+
+#leaf-Two {
+    position: absolute;
+    top: -12%;
+    right: -6%;
+}
